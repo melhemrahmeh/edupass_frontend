@@ -37,7 +37,7 @@ export default function App() {
               <>
 
                 <tr data-toggle="collapse" data-target="#demo1" class="accordion-toggle">
-                  <td style={{ 'color': "#5D5C63" }}>{item.category}</td>
+                  <td style={{ 'color': "#5D5C63" }}>{item.category} $</td>
                   <td style={{ 'color': "#5D5C63" }}>{item.subcatgeory}</td>
                   <td style={{ 'color': "#5D5C63" }}>{item.name}</td>
                   <td style={{ 'color': "#5D5C63" }}>{item.amount}</td>
