@@ -19,8 +19,6 @@ export default function App() {
       });
   }, [data]);
 
-  console.log(data);
-
   return (
     <>
       <div class="panel-body table-responsive-sm">
