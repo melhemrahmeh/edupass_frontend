@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -11,35 +12,35 @@ const Header = () => {
                 <div className="short_contact_list">
                   <ul>
                     <li>
-                      <a href="#">
+                      {/* <a href="#"> */}
                         {" "}
                         <i className="fa fa-phone" /> +1 (454) 556-5656
-                      </a>
+                      {/* </a> */}
                     </li>
                     <li>
-                      <a href="#">
+                      {/* <a href="#"> */}
                         {" "}
                         <i className="fa fa-envelope" />
                         Yourmail@gmail.com
-                      </a>
+                      {/* </a> */}
                     </li>
                   </ul>
                 </div>
               </div>
               <div className="col-xl-6 col-md-6 col-lg-4">
                 <div className="social_media_links d-none d-lg-block">
-                  <a href="#">
+                  {/* <a href="#"> */}
                     <i className="fa fa-facebook" />
-                  </a>
-                  <a href="#">
+                  {/* </a> */}
+                  {/* <a href="#"> */}
                     <i className="fa fa-pinterest-p" />
-                  </a>
-                  <a href="#">
+                  {/* </a> */}
+                  {/* <a href="#"> */}
                     <i className="fa fa-linkedin" />
-                  </a>
-                  <a href="#">
+                  {/* </a> */}
+                  {/* <a href="#"> */}
                     <i className="fa fa-twitter" />
-                  </a>
+                  {/* </a> */}
                 </div>
               </div>
             </div>
@@ -66,9 +67,9 @@ const Header = () => {
                         <a href="About.html">About</a>
                       </li>
                       <li>
-                        <a href="#">
+                        {/* <a href="#"> */}
                           blog <i className="ti-angle-down" />
-                        </a>
+                        {/* </a> */}
                         <ul className="submenu">
                           <li>
                             <a href="blog.html">blog</a>
@@ -79,9 +80,9 @@ const Header = () => {
                         </ul>
                       </li>
                       <li>
-                        <a href="#">
+                        {/* <a href="#"> */}
                           pages <i className="ti-angle-down" />
-                        </a>
+                        {/* </a> */}
                         <ul className="submenu">
                           <li>
                             <a href="elements.html">elements</a>
