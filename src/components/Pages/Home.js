@@ -56,10 +56,11 @@
 
 
 import React from 'react'
+import Headers from '../common/Headers'
 
 const Home = () => {
   return (
-    <div>Home <h1> test </h1></div>
+    <div><Headers/></div>
   )
 }
 
