@@ -9,7 +9,7 @@ import Volunteer from "./components/Pages/Volunteer"
 
 export default function App() {
   return (
-    <div>
+    <>
       <Routes>
         <Route index path="" element={<Home />} />
         <Route path="about/" element={<About />} />
@@ -17,6 +17,6 @@ export default function App() {
         <Route path="getapp/" element={<GetApp />} />
         <Route path="volunteer/" element={<Volunteer />} />
       </Routes>
-    </div>
+    </>
   );
 }

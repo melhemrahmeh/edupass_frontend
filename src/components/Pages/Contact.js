@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../Common/Header'
 
-const Donate = () => {
+const Contact = () => {
   return (
     <>
         <Header/>
@@ -9,4 +9,4 @@ const Donate = () => {
   )
 }
 
-export default Donate
+export default Contact

@@ -1,8 +1,11 @@
 import React from 'react'
+import Header from '../Common/Header'
 
 const Volunteer = () => {
   return (
-    <h1>Volunteer</h1>
+    <>
+        <Header/>
+    </>
   )
 }
 
