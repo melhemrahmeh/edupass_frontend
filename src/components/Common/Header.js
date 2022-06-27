@@ -1,7 +1,6 @@
 import React from "react";
-// import { Link } from 'react-router-dom'
 
-const Header = () => {
+const Headers = () => {
   return (
     <header>
       <div className="header-area ">
@@ -12,35 +11,35 @@ const Header = () => {
                 <div className="short_contact_list">
                   <ul>
                     <li>
-                      {/* <a href="#"> */}
+                      <a href="https://edupass-frontend.netlify.app/">
                         {" "}
                         <i className="fa fa-phone" /> +1 (454) 556-5656
-                      {/* </a> */}
+                      </a>
                     </li>
                     <li>
-                      {/* <a href="#"> */}
+                    <a href="https://edupass-frontend.netlify.app/">
                         {" "}
                         <i className="fa fa-envelope" />
                         Yourmail@gmail.com
-                      {/* </a> */}
+                      </a>
                     </li>
                   </ul>
                 </div>
               </div>
               <div className="col-xl-6 col-md-6 col-lg-4">
                 <div className="social_media_links d-none d-lg-block">
-                  {/* <a href="#"> */}
+                <a href="https://edupass-frontend.netlify.app/">
                     <i className="fa fa-facebook" />
-                  {/* </a> */}
-                  {/* <a href="#"> */}
+                  </a>
+                  <a href="https://edupass-frontend.netlify.app/">
                     <i className="fa fa-pinterest-p" />
-                  {/* </a> */}
-                  {/* <a href="#"> */}
+                  </a>
+                  <a href="https://edupass-frontend.netlify.app/">
                     <i className="fa fa-linkedin" />
-                  {/* </a> */}
-                  {/* <a href="#"> */}
+                  </a>
+                  <a href="https://edupass-frontend.netlify.app/">
                     <i className="fa fa-twitter" />
-                  {/* </a> */}
+                  </a>
                 </div>
               </div>
             </div>
@@ -67,9 +66,9 @@ const Header = () => {
                         <a href="About.html">About</a>
                       </li>
                       <li>
-                        {/* <a href="#"> */}
+                      <a href="https://edupass-frontend.netlify.app/">
                           blog <i className="ti-angle-down" />
-                        {/* </a> */}
+                        </a>
                         <ul className="submenu">
                           <li>
                             <a href="blog.html">blog</a>
@@ -80,9 +79,9 @@ const Header = () => {
                         </ul>
                       </li>
                       <li>
-                        {/* <a href="#"> */}
+                      <a href="https://edupass-frontend.netlify.app/">
                           pages <i className="ti-angle-down" />
-                        {/* </a> */}
+                        </a>
                         <ul className="submenu">
                           <li>
                             <a href="elements.html">elements</a>
@@ -99,7 +98,7 @@ const Header = () => {
                   </nav>
                   <div className="Appointment">
                     <div className="book_btn d-none d-lg-block">
-                      <a data-scroll-nav={1} href="#">
+                    <a data-scroll-nav={1} href="https://edupass-frontend.netlify.app/">
                         Make a Donate
                       </a>
                     </div>
@@ -117,4 +116,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Headers;
