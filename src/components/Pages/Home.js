@@ -57,12 +57,21 @@
 
 import React from 'react'
 import Header from '../Common/Header'
+import Footer from '../Common/Footer'
 
 const Home = () => {
   return (
     <>
         <Header/>
+        <br>
+        </br>
+        <br>
+        </br>
+        <br>
+        </br>
+        <Footer/>
     </>
+
   )
 }
 
