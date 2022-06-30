@@ -38,7 +38,18 @@ const ContactForm = () => {
                   />
                 </div>
               </div>
-              <div className="col-12">
+              <div className="col-sm-6">
+                <div className="form-group">
+                  <input
+                    className="form-control"
+                    name="phone"
+                    id="phone"
+                    type="text"
+                    placeholder="Enter Phone Number"
+                  />
+                </div>
+              </div>
+              <div className="col-sm-6">
                 <div className="form-group">
                   <input
                     className="form-control"
