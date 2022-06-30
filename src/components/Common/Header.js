@@ -59,7 +59,7 @@ const Header = () => {
                   alt="logo"
                   style={{
                     height: "450%",
-                    width: "110%",
+                    width: "100%",
                     marginBottom: "40px",
                     marginTop: "-30px",
                   }}
