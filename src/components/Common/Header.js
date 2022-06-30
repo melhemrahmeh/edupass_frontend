@@ -52,12 +52,11 @@ const Header = () => {
             className="navbar navbar-expand-lg navbar navbar-light"
             style={{ backgroundColor: "#87CEEB", minHeight: "110px" }}
           >
-            <a className="navbar-brand">
-              <Link to={"/"}>
+              <Link to={"/"} className="navbar-brand">
                 {" "}
                 <img
                   src={logo}
-                  alt="Responsive image"
+                  alt="logo"
                   style={{
                     height: "450%",
                     width: "110%",
@@ -66,7 +65,6 @@ const Header = () => {
                   }}
                 />
               </Link>
-            </a>
             <button
               className="navbar-toggler"
               type="button"
