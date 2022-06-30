@@ -1,6 +1,8 @@
 import React from "react";
+import logo from "../assets/img/logo.jpg";
+import { Link } from "react-router-dom";
 
-const Headers = () => {
+const Header = () => {
   return (
     <header>
       <div className="header-area ">
@@ -17,7 +19,7 @@ const Headers = () => {
                       </a>
                     </li>
                     <li>
-                    <a href="https://edupass-frontend.netlify.app/">
+                      <a href="https://edupass-frontend.netlify.app/">
                         {" "}
                         <i className="fa fa-envelope" />
                         Yourmail@gmail.com
@@ -28,7 +30,7 @@ const Headers = () => {
               </div>
               <div className="col-xl-6 col-md-6 col-lg-4">
                 <div className="social_media_links d-none d-lg-block">
-                <a href="https://edupass-frontend.netlify.app/">
+                  <a href="https://edupass-frontend.netlify.app/">
                     <i className="fa fa-facebook" />
                   </a>
                   <a href="https://edupass-frontend.netlify.app/">
@@ -45,75 +47,129 @@ const Headers = () => {
             </div>
           </div>
         </div>
-        <div id="sticky-header" className="main-header-area">
-          <div className="container-fluid">
-            <div className="row align-items-center">
-              <div className="col-xl-3 col-lg-3">
-                <div className="logo">
-                  <a href="index.html">
-                    <img src="img/logo.png" alt="" />
-                  </a>
-                </div>
-              </div>
-              <div className="col-xl-9 col-lg-9">
-                <div className="main-menu">
-                  <nav>
-                    <ul id="navigation">
-                      <li>
-                        <a href="index.html">home</a>
-                      </li>
-                      <li>
-                        <a href="About.html">About</a>
-                      </li>
-                      <li>
-                      <a href="https://edupass-frontend.netlify.app/">
-                          blog <i className="ti-angle-down" />
-                        </a>
-                        <ul className="submenu">
-                          <li>
-                            <a href="blog.html">blog</a>
-                          </li>
-                          <li>
-                            <a href="single-blog.html">single-blog</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                      <a href="https://edupass-frontend.netlify.app/">
-                          pages <i className="ti-angle-down" />
-                        </a>
-                        <ul className="submenu">
-                          <li>
-                            <a href="elements.html">elements</a>
-                          </li>
-                          <li>
-                            <a href="Cause.html">Cause</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <a href="contact.html">Contact</a>
-                      </li>
-                    </ul>
-                  </nav>
-                  <div className="Appointment">
-                    <div className="book_btn d-none d-lg-block">
-                    <a data-scroll-nav={1} href="https://edupass-frontend.netlify.app/">
-                        Make a Donate
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-12">
-                <div className="mobile_menu d-block d-lg-none" />
-              </div>
+        <div className="main-menu">
+          <nav
+            class="navbar navbar-expand-lg navbar navbar-light"
+            style={{ backgroundColor: "#87CEEB", minHeight: "110px" }}
+          >
+            <a className="navbar-brand">
+              <Link to={"/"}>
+                {" "}
+                <img
+                  src={logo}
+                  alt="Responsive image"
+                  style={{
+                    height: "450%",
+                    width: "110%",
+                    marginBottom: "40px",
+                    marginTop: "-30px",
+                  }}
+                />
+              </Link>
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="nav navbar-nav navbar-right" id="navigation">
+              <li class="nav-item my-2 my-lg-0" style={{marginLeft : '10px'}}>
+                  <Link to={"/"} class="nav-link">
+                    {" "}
+                    <h4>
+                      <strong
+                        style={{
+                          color: "white",
+                        }}
+                      >
+                        Home
+                      </strong>
+                    </h4>
+                  </Link>
+                </li>
+                <li class="nav-item my-2 my-lg-0" style={{marginLeft : '10px'}}>
+                  <Link to={"/about"} class="nav-link">
+                    {" "}
+                    <h4>
+                      <strong
+                        style={{
+                          color: "white",
+                        }}
+                      >
+                        About
+                      </strong>
+                    </h4>
+                  </Link>
+                </li>
+                <li class="nav-item my-2 my-lg-0" style={{marginLeft : '10px'}}>
+                  <Link to={"/getapp"} class="nav-link">
+                    {" "}
+                    <h4>
+                      <strong
+                        style={{
+                          color: "white",
+                        }}
+                      >
+                        Get App
+                      </strong>
+                    </h4>
+                  </Link>
+                </li>
+                <li class="nav-item my-2 my-lg-0" style={{marginLeft : '10px'}}>
+                  <Link to={"/volunteer"} class="nav-link">
+                    {" "}
+                    <h4>
+                      <strong
+                        style={{
+                          color: "white",
+                        }}
+                      >
+                        Volunteer
+                      </strong>
+                    </h4>
+                  </Link>
+                </li>
+                <li class="nav-item my-2 my-lg-0" style={{marginLeft : '10px'}}>
+                  <Link to={"/contact"} class="nav-link">
+                    {" "}
+                    <h4>
+                      <strong
+                        style={{
+                          color: "white",
+                        }}
+                      >
+                        Contact
+                      </strong>
+                    </h4>
+                  </Link>
+                </li>
+                <li class="nav-item my-2 my-lg-0" style={{marginLeft : '10px'}}>
+                  <Link to={"/donate"} class="nav-link">
+                    {" "}
+                    <h4>
+                      <strong
+                        style={{
+                          color: "white",
+                        }}
+                      >
+                        Donate
+                      </strong>
+                    </h4>
+                  </Link>
+                </li>
+              </ul>
             </div>
-          </div>
+          </nav>
         </div>
       </div>
     </header>
   );
 };
-
-export default Headers;
+export default Header;

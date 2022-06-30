@@ -6,6 +6,7 @@ import Donate from "./components/Pages/Donate"
 import GetApp from "./components/Pages/GetApp"
 import Home from "./components/Pages/Home"
 import Volunteer from "./components/Pages/Volunteer"
+import Contact from "./components/Pages/Contact"
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <Route path="donate/" element={<Donate />} />
         <Route path="getapp/" element={<GetApp />} />
         <Route path="volunteer/" element={<Volunteer />} />
+        <Route path="contact/" element={<Contact />} />
       </Routes>
     </>
   );
