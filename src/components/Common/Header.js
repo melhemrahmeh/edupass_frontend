@@ -143,7 +143,7 @@ const Header = () => {
                           color: "white",
                         }}
                       >
-                        Contact
+                        Contact Us
                       </strong>
                     </h4>
                   </Link>
