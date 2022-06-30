@@ -159,22 +159,22 @@ const Footer = () => {
                 <div className="socail_links">
                   <ul>
                     <li>
-                      <a href="#">
+                    <a href="https://edupass-frontend.netlify.app/">
                         <i className="ti-facebook" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                    <a href="https://edupass-frontend.netlify.app/">
                         <i className="ti-twitter-alt" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                    <a href="https://edupass-frontend.netlify.app/">
                         <i className="fa fa-dribbble" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                    <a href="https://edupass-frontend.netlify.app/">
                         <i className="fa fa-instagram" />
                       </a>
                     </li>

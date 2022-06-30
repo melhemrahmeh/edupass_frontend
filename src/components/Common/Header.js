@@ -49,7 +49,7 @@ const Header = () => {
         </div>
         <div className="main-menu">
           <nav
-            class="navbar navbar-expand-lg navbar navbar-light"
+            className="navbar navbar-expand-lg navbar navbar-light"
             style={{ backgroundColor: "#87CEEB", minHeight: "110px" }}
           >
             <a className="navbar-brand">
@@ -68,7 +68,7 @@ const Header = () => {
               </Link>
             </a>
             <button
-              class="navbar-toggler"
+              className="navbar-toggler"
               type="button"
               data-toggle="collapse"
               data-target="#navbarNavDropdown"
@@ -76,12 +76,12 @@ const Header = () => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="nav navbar-nav navbar-right" id="navigation">
-              <li class="nav-item my-2 my-lg-0" style={{marginLeft : '10px'}}>
-                  <Link to={"/"} class="nav-link">
+            <div className="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul className="nav navbar-nav navbar-right" id="navigation">
+              <li className="nav-item my-2 my-lg-0" style={{marginLeft : '10px'}}>
+                  <Link to={"/"} className="nav-link">
                     {" "}
                     <h4>
                       <strong
@@ -94,8 +94,8 @@ const Header = () => {
                     </h4>
                   </Link>
                 </li>
-                <li class="nav-item my-2 my-lg-0" style={{marginLeft : '10px'}}>
-                  <Link to={"/about"} class="nav-link">
+                <li className="nav-item my-2 my-lg-0" style={{marginLeft : '10px'}}>
+                  <Link to={"/about"} className="nav-link">
                     {" "}
                     <h4>
                       <strong
@@ -108,8 +108,8 @@ const Header = () => {
                     </h4>
                   </Link>
                 </li>
-                <li class="nav-item my-2 my-lg-0" style={{marginLeft : '10px'}}>
-                  <Link to={"/getapp"} class="nav-link">
+                <li className="nav-item my-2 my-lg-0" style={{marginLeft : '10px'}}>
+                  <Link to={"/getapp"} className="nav-link">
                     {" "}
                     <h4>
                       <strong
@@ -122,8 +122,8 @@ const Header = () => {
                     </h4>
                   </Link>
                 </li>
-                <li class="nav-item my-2 my-lg-0" style={{marginLeft : '10px'}}>
-                  <Link to={"/volunteer"} class="nav-link">
+                <li className="nav-item my-2 my-lg-0" style={{marginLeft : '10px'}}>
+                  <Link to={"/volunteer"} className="nav-link">
                     {" "}
                     <h4>
                       <strong
@@ -136,8 +136,8 @@ const Header = () => {
                     </h4>
                   </Link>
                 </li>
-                <li class="nav-item my-2 my-lg-0" style={{marginLeft : '10px'}}>
-                  <Link to={"/contact"} class="nav-link">
+                <li className="nav-item my-2 my-lg-0" style={{marginLeft : '10px'}}>
+                  <Link to={"/contact"} className="nav-link">
                     {" "}
                     <h4>
                       <strong
@@ -150,8 +150,8 @@ const Header = () => {
                     </h4>
                   </Link>
                 </li>
-                <li class="nav-item my-2 my-lg-0" style={{marginLeft : '10px'}}>
-                  <Link to={"/donate"} class="nav-link">
+                <li className="nav-item my-2 my-lg-0" style={{marginLeft : '10px'}}>
+                  <Link to={"/donate"} className="nav-link">
                     {" "}
                     <h4>
                       <strong
