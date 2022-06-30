@@ -141,12 +141,12 @@ const Footer = () => {
             <div className="col-xl-4 col-md-6 col-lg-4 ">
               <div className="footer_widget">
                 <div className="footer_logo">
-                  <a href="#">
+                  <a href="https://edupass-frontend.netlify.app/">
                     <img
                       src={logo}
                       style={{
                         height: "30%",
-                        width: "30%"
+                        width: "30%",
                       }}
                       alt=""
                     />
@@ -159,22 +159,22 @@ const Footer = () => {
                 <div className="socail_links">
                   <ul>
                     <li>
-                    <a href="https://edupass-frontend.netlify.app/">
+                      <a href="https://edupass-frontend.netlify.app/">
                         <i className="ti-facebook" />
                       </a>
                     </li>
                     <li>
-                    <a href="https://edupass-frontend.netlify.app/">
+                      <a href="https://edupass-frontend.netlify.app/">
                         <i className="ti-twitter-alt" />
                       </a>
                     </li>
                     <li>
-                    <a href="https://edupass-frontend.netlify.app/">
+                      <a href="https://edupass-frontend.netlify.app/">
                         <i className="fa fa-dribbble" />
                       </a>
                     </li>
                     <li>
-                    <a href="https://edupass-frontend.netlify.app/">
+                      <a href="https://edupass-frontend.netlify.app/">
                         <i className="fa fa-instagram" />
                       </a>
                     </li>
@@ -187,22 +187,22 @@ const Footer = () => {
                 <h3 className="footer_title">Services</h3>
                 <ul className="links">
                   <li>
-                    <a href="#">Donate</a>
+                  <a href="https://edupass-frontend.netlify.app/">Donate</a>
                   </li>
                   <li>
-                    <a href="#">Sponsor</a>
+                    <a href="https://edupass-frontend.netlify.app/">Sponsor</a>
                   </li>
                   <li>
-                    <a href="#">Fundraise</a>
+                    <a href="https://edupass-frontend.netlify.app/">Fundraise</a>
                   </li>
                   <li>
-                    <a href="#">Volunteer</a>
+                    <a href="https://edupass-frontend.netlify.app/">Volunteer</a>
                   </li>
                   <li>
-                    <a href="#">Partner</a>
+                    <a href="https://edupass-frontend.netlify.app/">Partner</a>
                   </li>
                   <li>
-                    <a href="#">Jobs</a>
+                    <a href="https://edupass-frontend.netlify.app/">Jobs</a>
                   </li>
                 </ul>
               </div>
@@ -225,12 +225,12 @@ const Footer = () => {
                 <ul className="news_links">
                   <li>
                     <div className="thumb">
-                      <a href="#">
+                    <a href="https://edupass-frontend.netlify.app/">
                         <img src="img/news/news_1.png" alt="" />
                       </a>
                     </div>
                     <div className="info">
-                      <a href="#">
+                    <a href="https://edupass-frontend.netlify.app/">
                         <h4>School for African Childrens</h4>
                       </a>
                       <span>Jun 12, 2019</span>
@@ -238,12 +238,12 @@ const Footer = () => {
                   </li>
                   <li>
                     <div className="thumb">
-                      <a href="#">
+                    <a href="https://edupass-frontend.netlify.app/">
                         <img src="img/news/news_2.png" alt="" />
                       </a>
                     </div>
                     <div className="info">
-                      <a href="#">
+                    <a href="https://edupass-frontend.netlify.app/">
                         <h4>School for African Childrens</h4>
                       </a>
                       <span>Jun 12, 2019</span>
