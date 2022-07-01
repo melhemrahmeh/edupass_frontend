@@ -46,7 +46,7 @@ const ContactForm = () => {
               </div>
               <div className="col-sm-6">
                 <div className="form-group">
-                  <label for="html">Enter your phone number:</label>
+                  <label for="phone">Enter your phone number:</label>
                   <input
                     type="tel"
                     placeholder="01 234 567"
@@ -58,7 +58,7 @@ const ContactForm = () => {
               </div>
               <div className="col-sm-6">
                 <div className="form-group">
-                  <label for="html">Subject:</label>
+                  <label for="subject">Subject:</label>
                   <input
                     className="form-control"
                     name="subject"
@@ -70,7 +70,7 @@ const ContactForm = () => {
               </div>
               <div className="col-12">
                 <div className="form-group">
-                  <label for="html">Message:</label>
+                  <label for="message">Message:</label>
                   <textarea
                     className="form-control w-100"
                     name="message"
