@@ -87,7 +87,7 @@ const ContactForm = () => {
                 type="submit"
                 className="button button-contactForm boxed-btn"
               >
-                Send Message
+                <strong>Send Message</strong>
               </button>
             </div>
           </form>

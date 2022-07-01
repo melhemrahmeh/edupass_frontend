@@ -455,9 +455,9 @@ h3 {
   display: inline-block;
   padding: 15px 30px;
   font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
-  border: 1px solid #3CC78F;
+  border: 2px solid #3CC78F;
   text-transform: capitalize;
   cursor: pointer;
   -webkit-border-radius: 3px;
