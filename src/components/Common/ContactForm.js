@@ -6,6 +6,10 @@ const ContactForm = () => {
       <div className="row">
         <div className="col-12">
           <h2 className="contact-title">Get in Touch</h2>
+          <h4>
+            <strong>Please let us know your query</strong>
+          </h4>
+          <br />
         </div>
         <div className="col-lg-8">
           <form
@@ -18,57 +22,62 @@ const ContactForm = () => {
             <div className="row">
               <div className="col-sm-6">
                 <div className="form-group">
+                  <label for="name">Enter your name:</label>
                   <input
                     className="form-control valid"
                     name="name"
                     id="name"
                     type="text"
-                    placeholder="Enter your name"
+                    placeholder="Name"
                   />
                 </div>
               </div>
               <div className="col-sm-6">
                 <div className="form-group">
+                  <label for="email">Enter your email:</label>
                   <input
                     className="form-control valid"
                     name="email"
                     id="email"
                     type="email"
-                    placeholder="Email"
+                    placeholder="example@domain.com"
                   />
                 </div>
               </div>
               <div className="col-sm-6">
                 <div className="form-group">
+                  <label for="html">Enter your phone number:</label>
                   <input
+                    type="tel"
+                    placeholder="01 234 567"
                     className="form-control"
                     name="phone"
                     id="phone"
-                    type="text"
-                    placeholder="Enter Phone Number"
                   />
                 </div>
               </div>
               <div className="col-sm-6">
                 <div className="form-group">
+                  <label for="html">Subject:</label>
                   <input
                     className="form-control"
                     name="subject"
                     id="subject"
                     type="text"
-                    placeholder="Enter Subject"
+                    placeholder="The Reason"
                   />
                 </div>
               </div>
               <div className="col-12">
                 <div className="form-group">
+                  <label for="html">Message:</label>
                   <textarea
                     className="form-control w-100"
                     name="message"
                     id="message"
                     cols={30}
                     rows={9}
-                    placeholder="Enter Message"
+                    placeholder="Enter your message"
                   />
                 </div>
               </div>
