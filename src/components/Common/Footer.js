@@ -154,8 +154,7 @@ const Footer = () => {
                   </a>
                 </div>
                 <p className="address_text">
-                  Lorem ipsum dolor sit amet, <br /> consectetur adipiscing
-                  elit, sed do <br /> eiusmod tempor incididunt ut labore.
+                A non-profit educational platform <br /> that embodies adaptive learning to help <br /> Syrian refugees integrate in Lebanese schools.
                 </p>
                 <div className="socail_links">
                   <ul>
@@ -171,7 +170,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <a href="https://edupass-frontend.netlify.app/">
-                        <i className="fa fa-dribbble" />
+                        <i className="fa fa-linkedin" />
                       </a>
                     </li>
                     <li>
@@ -213,9 +212,10 @@ const Footer = () => {
                 <h3 className="footer_title">Contacts</h3>
                 <div className="contacts">
                   <p>
-                    +2(305) 587-3407 <br />
-                    info@loveuscharity.com <br />
-                    Flat 20, Reynolds Neck, North Helenaville, FV77 8WS
+                    +961 71 5789 832<br />
+                    +961 71 5789 832<br />
+                    edupass.suppory@gmail.com <br />
+                    edupass.suppory@gmail.com <br />
                   </p>
                 </div>
               </div>

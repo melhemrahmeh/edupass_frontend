@@ -15,14 +15,14 @@ const Header = () => {
                     <li>
                       <a href="https://edupass-frontend.netlify.app/">
                         {" "}
-                        <i className="fa fa-phone" /> +1 (454) 556-5656
+                        <i className="fa fa-phone" /> +961 71 589 832
                       </a>
                     </li>
                     <li>
                       <a href="https://edupass-frontend.netlify.app/">
                         {" "}
                         <i className="fa fa-envelope" />
-                        Yourmail@gmail.com
+                        edupass.support@gmail.com
                       </a>
                     </li>
                   </ul>
