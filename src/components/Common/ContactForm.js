@@ -1,6 +1,45 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import axios from "axios";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+toast.configure()
+
 
 const ContactForm = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phoneNumber, setPhoneNumber] = useState("");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
+  
+  const notify = () => toast.success(`Message sent successfully!`);
+
+
+  const addNewContactForm = async (e) => {
+    e.preventDefault();
+    const form = {
+      name,
+      email,
+      phoneNumber,
+      subject,
+      message,
+    };
+    console.log(form);
+    await axios({
+      method: "POST",
+      url: "https://edupass-rest-apis.herokuapp.com/api/contactrequests/create/",
+      data: form,
+    })
+      .then((response) => {
+        console.log(response.data);
+      })
+      .catch((e) => {
+        console.log(e);
+      });
+  };
+
+  
   return (
     <div className="container">
       <div className="row">
@@ -14,8 +53,6 @@ const ContactForm = () => {
         <div className="col-lg-8">
           <form
             className="form-contact contact_form"
-            action="contact_process.php"
-            method="post"
             id="contactForm"
             noValidate="novalidate"
           >
@@ -26,6 +63,8 @@ const ContactForm = () => {
                   <input
                     className="form-control valid"
                     name="name"
+                      value={name}
+                      onChange={(e) => setName(e.target.value)}
                     id="name"
                     type="text"
                     placeholder="Name"
@@ -38,6 +77,8 @@ const ContactForm = () => {
                   <input
                     className="form-control valid"
                     name="email"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
                     id="email"
                     type="email"
                     placeholder="example@domain.com"
@@ -51,7 +92,9 @@ const ContactForm = () => {
                     type="tel"
                     placeholder="01 234 567"
                     className="form-control"
-                    name="phone"
+                    name="phoneNumber"
+                    value={phoneNumber}
+                    onChange={(e) => setPhoneNumber(e.target.value)}
                     id="phone"
                   />
                 </div>
@@ -62,6 +105,8 @@ const ContactForm = () => {
                   <input
                     className="form-control"
                     name="subject"
+                    value={subject}
+                    onChange={(e) => setSubject(e.target.value)}
                     id="subject"
                     type="text"
                     placeholder="The Reason"
@@ -74,6 +119,8 @@ const ContactForm = () => {
                   <textarea
                     className="form-control w-100"
                     name="message"
+                    value={message}
+                    onChange={(e) => setMessage(e.target.value)}
                     id="message"
                     cols={30}
                     rows={9}
@@ -84,13 +131,23 @@ const ContactForm = () => {
             </div>
             <div className="form-group mt-3">
               <button
-                type="submit"
+                type="submit"  
+                onClick={(e) => { addNewContactForm(e);notify(); }}
                 className="button button-contactForm boxed-btn"
               >
                 <strong>Send Message</strong>
               </button>
             </div>
           </form>
+          <ToastContainer
+                  autoClose={4000}
+                  hideProgressBar={false}
+                  closeOnClick
+                  rtl={false}
+                  pauseOnFocusLoss
+                  draggable
+                  pauseOnHover
+                />
         </div>
         <div className="col-lg-3 offset-lg-1">
           <div className="media contact-info">
