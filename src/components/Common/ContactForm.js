@@ -153,8 +153,8 @@ const ContactForm = () => {
               <i className="ti-home" />
             </span>
             <div className="media-body">
-              <h3>Buttonwood, California.</h3>
-              <p>Rosemead, CA 91770</p>
+              <h3>Beirut, Lebanon</h3>
+              <p>Remote office</p>
             </div>
           </div>
           <div className="media contact-info">
@@ -162,7 +162,7 @@ const ContactForm = () => {
               <i className="ti-tablet" />
             </span>
             <div className="media-body">
-              <h3>+1 253 565 2365</h3>
+              <h3>+961 71 589 832</h3>
               <p>Mon to Fri 9am to 6pm</p>
             </div>
           </div>
@@ -171,7 +171,7 @@ const ContactForm = () => {
               <i className="ti-email" />
             </span>
             <div className="media-body">
-              <h3>support@colorlib.com</h3>
+              <h3>edupass.support@gmail.com</h3>
               <p>Send us your query anytime!</p>
             </div>
           </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/img/logo.jpg";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -187,26 +188,22 @@ const Footer = () => {
                 <h3 className="footer_title">Services</h3>
                 <ul className="links">
                   <li>
-                    <a href="https://edupass-frontend.netlify.app/">Donate</a>
+                    <Link to={"/"}>Home</Link>
                   </li>
                   <li>
-                    <a href="https://edupass-frontend.netlify.app/">Sponsor</a>
+                    <Link to={"/about"}>About</Link>
                   </li>
                   <li>
-                    <a href="https://edupass-frontend.netlify.app/">
-                      Fundraise
-                    </a>
+                    <Link to={"/getapp"}>Get App</Link>
                   </li>
                   <li>
-                    <a href="https://edupass-frontend.netlify.app/">
-                      Volunteer
-                    </a>
+                    <Link to={"/volunteer"}>Volunteer</Link>
                   </li>
                   <li>
-                    <a href="https://edupass-frontend.netlify.app/">Partner</a>
+                    <Link to={"/contact"}>Contact Us</Link>
                   </li>
                   <li>
-                    <a href="https://edupass-frontend.netlify.app/">Jobs</a>
+                    <Link to={"/donate"}>Donate</Link>
                   </li>
                 </ul>
               </div>
