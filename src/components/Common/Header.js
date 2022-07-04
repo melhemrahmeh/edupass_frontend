@@ -52,19 +52,19 @@ const Header = () => {
             className="navbar navbar-expand-lg navbar navbar-light"
             style={{ backgroundColor: "#87CEEB", minHeight: "110px" }}
           >
-              <Link to={"/"} className="navbar-brand">
-                {" "}
-                <img
-                  src={logo}
-                  alt="logo"
-                  style={{
-                    height: "450%",
-                    width: "100%",
-                    marginBottom: "40px",
-                    marginTop: "-30px",
-                  }}
-                />
-              </Link>
+            <Link to={"/"} className="navbar-brand">
+              {" "}
+              <img
+                src={logo}
+                alt="logo"
+                style={{
+                  height: "450%",
+                  width: "100%",
+                  marginBottom: "40px",
+                  marginTop: "-30px",
+                }}
+              />
+            </Link>
             <button
               className="navbar-toggler"
               type="button"
@@ -78,7 +78,10 @@ const Header = () => {
             </button>
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
               <ul className="nav navbar-nav navbar-right" id="navigation">
-              <li className="nav-item my-2 my-lg-0" style={{marginLeft : '10px'}}>
+                <li
+                  className="nav-item my-2 my-lg-0"
+                  style={{ marginLeft: "10px" }}
+                >
                   <Link to={"/"} className="nav-link">
                     {" "}
                     <h4>
@@ -92,7 +95,10 @@ const Header = () => {
                     </h4>
                   </Link>
                 </li>
-                <li className="nav-item my-2 my-lg-0" style={{marginLeft : '10px'}}>
+                <li
+                  className="nav-item my-2 my-lg-0"
+                  style={{ marginLeft: "10px" }}
+                >
                   <Link to={"/about"} className="nav-link">
                     {" "}
                     <h4>
@@ -106,7 +112,10 @@ const Header = () => {
                     </h4>
                   </Link>
                 </li>
-                <li className="nav-item my-2 my-lg-0" style={{marginLeft : '10px'}}>
+                <li
+                  className="nav-item my-2 my-lg-0"
+                  style={{ marginLeft: "10px" }}
+                >
                   <Link to={"/getapp"} className="nav-link">
                     {" "}
                     <h4>
@@ -120,7 +129,10 @@ const Header = () => {
                     </h4>
                   </Link>
                 </li>
-                <li className="nav-item my-2 my-lg-0" style={{marginLeft : '10px'}}>
+                <li
+                  className="nav-item my-2 my-lg-0"
+                  style={{ marginLeft: "10px" }}
+                >
                   <Link to={"/volunteer"} className="nav-link">
                     {" "}
                     <h4>
@@ -134,7 +146,10 @@ const Header = () => {
                     </h4>
                   </Link>
                 </li>
-                <li className="nav-item my-2 my-lg-0" style={{marginLeft : '10px'}}>
+                <li
+                  className="nav-item my-2 my-lg-0"
+                  style={{ marginLeft: "10px" }}
+                >
                   <Link to={"/contact"} className="nav-link">
                     {" "}
                     <h4>
@@ -148,7 +163,10 @@ const Header = () => {
                     </h4>
                   </Link>
                 </li>
-                <li className="nav-item my-2 my-lg-0" style={{marginLeft : '10px'}}>
+                <li
+                  className="nav-item my-2 my-lg-0"
+                  style={{ marginLeft: "10px" }}
+                >
                   <Link to={"/donate"} className="nav-link">
                     {" "}
                     <h4>

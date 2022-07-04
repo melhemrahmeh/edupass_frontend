@@ -1,12 +1,12 @@
-import React from 'react'
-import { Routes, Route } from "react-router-dom"
+import React from "react";
+import { Routes, Route } from "react-router-dom";
 
-import About from "./components/Pages/About"
-import Donate from "./components/Pages/Donate"
-import GetApp from "./components/Pages/GetApp"
-import Home from "./components/Pages/Home"
-import Volunteer from "./components/Pages/Volunteer"
-import Contact from "./components/Pages/Contact"
+import About from "./components/Pages/About";
+import Donate from "./components/Pages/Donate";
+import GetApp from "./components/Pages/GetApp";
+import Home from "./components/Pages/Home";
+import Volunteer from "./components/Pages/Volunteer";
+import Contact from "./components/Pages/Contact";
 
 export default function App() {
   return (

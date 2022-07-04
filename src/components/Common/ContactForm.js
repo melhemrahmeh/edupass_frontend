@@ -1,10 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-
-toast.configure()
-
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const ContactForm = () => {
   const [name, setName] = useState("");
@@ -12,9 +9,8 @@ const ContactForm = () => {
   const [phoneNumber, setPhoneNumber] = useState("");
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
-  
-  const notify = () => toast.success(`Message sent successfully!`);
 
+  const notify = () => toast.success(`Message sent successfully!`);
 
   const addNewContactForm = async (e) => {
     e.preventDefault();
@@ -39,7 +35,6 @@ const ContactForm = () => {
       });
   };
 
-  
   return (
     <div className="container">
       <div className="row">
@@ -63,8 +58,8 @@ const ContactForm = () => {
                   <input
                     className="form-control valid"
                     name="name"
-                      value={name}
-                      onChange={(e) => setName(e.target.value)}
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
                     id="name"
                     type="text"
                     placeholder="Name"
@@ -77,8 +72,8 @@ const ContactForm = () => {
                   <input
                     className="form-control valid"
                     name="email"
-                      value={email}
-                      onChange={(e) => setEmail(e.target.value)}
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
                     id="email"
                     type="email"
                     placeholder="example@domain.com"
@@ -131,8 +126,11 @@ const ContactForm = () => {
             </div>
             <div className="form-group mt-3">
               <button
-                type="submit"  
-                onClick={(e) => { addNewContactForm(e);notify(); }}
+                type="submit"
+                onClick={(e) => {
+                  addNewContactForm(e);
+                  notify();
+                }}
                 className="button button-contactForm boxed-btn"
               >
                 <strong>Send Message</strong>
@@ -140,14 +138,14 @@ const ContactForm = () => {
             </div>
           </form>
           <ToastContainer
-                  autoClose={4000}
-                  hideProgressBar={false}
-                  closeOnClick
-                  rtl={false}
-                  pauseOnFocusLoss
-                  draggable
-                  pauseOnHover
-                />
+            autoClose={4000}
+            hideProgressBar={false}
+            closeOnClick
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            pauseOnHover
+          />
         </div>
         <div className="col-lg-3 offset-lg-1">
           <div className="media contact-info">
