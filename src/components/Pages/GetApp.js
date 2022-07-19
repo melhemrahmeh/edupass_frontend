@@ -1,15 +1,20 @@
 import React from "react";
 import Header from "../Common/Header";
 import Footer from "../Common/Footer";
+import GetAppBody from "../Common/GetAppBody";
 
 const GetApp = () => {
   return (
     <>
-      <Header />
-      <br />
-      <br />
-      <br />
-      <Footer />
+    <div style={{
+      backgroundColor: '#e3f5f5' ,
+    }}
+    >
+    <Header />
+    <GetAppBody />
+    <Footer/>
+    </div>
+      
     </>
   );
 };
