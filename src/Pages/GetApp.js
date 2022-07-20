@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "../Common/Header";
-import Footer from "../Common/Footer";
+import Header from "../components/Common/Header";
+import Footer from "../components/Common/Footer";
 
 const GetApp = () => {
   return (
