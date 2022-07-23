@@ -1,17 +1,16 @@
 import React from "react";
 import Header from "../components/Common/Header";
 import Footer from "../components/Common/Footer";
+import Donate from "../components/ui/Donate";
 
-const Donate = () => {
+const DonatePage = () => {
   return (
     <>
       <Header />
-      <br />
-      <br />
-      <br />
+      <Donate />
       <Footer />
     </>
   );
 };
 
-export default Donate;
+export default DonatePage;
