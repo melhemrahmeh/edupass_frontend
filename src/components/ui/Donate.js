@@ -21,7 +21,7 @@ const Donate = () => {
         <div className="row">
           <div className="col-12">
             <div className="donate_now_btn text-center">
-              <a href="#" className="boxed-btn4">
+              <a href="https://edupass-frontend.netlify.app/" className="boxed-btn4">
                 Donate Now
               </a>
             </div>

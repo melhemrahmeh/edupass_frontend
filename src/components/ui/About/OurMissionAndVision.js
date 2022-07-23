@@ -38,7 +38,7 @@ const OurMissionAndVision = () => {
                   incididunt ut labore dolore magna aliqua. enim minim veniam,
                   quis nostrud exercitation.
                 </p>
-                <a href="https://edupass-frontend.netlify.app/" data-scroll-nav={1} className="boxed-btn4">
+                <a c data-scroll-nav={1} className="boxed-btn4">
                   Donate Now
                 </a>
               </div>
