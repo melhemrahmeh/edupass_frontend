@@ -9,6 +9,7 @@ const OurMissionAndVision = () => {
         <div className=" video_bg_1 video_activite  d-flex align-items-center justify-content-center">
           <a
             className="popup-video"
+            href="https://edupass-frontend.netlify.app/"
           >
             <img src={logo} alt="" />
           </a>
@@ -37,7 +38,7 @@ const OurMissionAndVision = () => {
                   incididunt ut labore dolore magna aliqua. enim minim veniam,
                   quis nostrud exercitation.
                 </p>
-                <a href="#" data-scroll-nav={1} className="boxed-btn4">
+                <a href="https://edupass-frontend.netlify.app/" data-scroll-nav={1} className="boxed-btn4">
                   Donate Now
                 </a>
               </div>
