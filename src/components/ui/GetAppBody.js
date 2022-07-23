@@ -14,6 +14,7 @@ const GetAppBody = () => {
             height: "20%",
             width: "35%",
           }}
+          alt=""
         ></img>
       </div>
       <div>
@@ -24,6 +25,7 @@ const GetAppBody = () => {
             height: "20%",
             width: "35%",
           }}
+          alt=""
         ></img>
       </div>
       <div>
@@ -34,6 +36,7 @@ const GetAppBody = () => {
             height: "20%",
             width: "35%",
           }}
+          alt=""
         ></img>
       </div>
     </div>
