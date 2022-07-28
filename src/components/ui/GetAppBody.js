@@ -6,37 +6,51 @@ import app3 from "../assets/img/app3.jpg";
 const GetAppBody = () => {
   return (
     <div>
-      <div>
-        <h1>DICTIONARY</h1>
+      <h1>Dictionary</h1>
+      <div
+      style={{
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+      }}
+    >
         <img
           src={app1}
           style={{
-            height: "20%",
-            width: "35%",
+            height: "5%",
+            width: "15%",
           }}
-          alt=""
         ></img>
       </div>
-      <div>
-        <h1>LESSONS</h1>
+      <h1>Lessons</h1>
+      <div
+      style={{
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+      }}
+    >
         <img
           src={app2}
           style={{
-            height: "20%",
-            width: "35%",
+            height: "5%",
+            width: "15%",
           }}
-          alt=""
         ></img>
       </div>
-      <div>
-        <h1>CHAT</h1>
-        <img
+      <h1>Chat</h1>
+      <div
+      style={{
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+      }}
+    >        <img
           src={app3}
           style={{
-            height: "20%",
-            width: "35%",
+            height: "5%",
+            width: "15%",
           }}
-          alt=""
         ></img>
       </div>
     </div>
