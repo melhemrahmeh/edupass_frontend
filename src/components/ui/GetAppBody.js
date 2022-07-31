@@ -6,7 +6,14 @@ import app3 from "../assets/img/app3.jpg";
 const GetAppBody = () => {
   return (
     <div>
-      <h1>Dictionary</h1>
+      <div>
+      <h1
+         style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+            }}
+      >Dictionary</h1>
       <div
       style={{
         display: 'flex',
@@ -17,12 +24,25 @@ const GetAppBody = () => {
         <img
           src={app1}
           style={{
-            height: "5%",
-            width: "15%",
+            height: "300px",
+            width: "300px",
           }}
         ></img>
       </div>
-      <h1>Lessons</h1>
+      <h3
+         style={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}>this is the dictionary screen</h3>
+
+      <h1
+         style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+            }}
+      >Lessons</h1>
       <div
       style={{
         display: 'flex',
@@ -33,25 +53,45 @@ const GetAppBody = () => {
         <img
           src={app2}
           style={{
-            height: "5%",
-            width: "15%",
+            height: "300px",
+            width: "300px",
           }}
         ></img>
       </div>
-      <h1>Chat</h1>
+      <h3
+         style={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}>this is the lessons screen</h3>
+
+      <h1
+         style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+            }}
+      > Chat</h1>
       <div
       style={{
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
       }}
-    >        <img
+    >   <img
           src={app3}
           style={{
-            height: "5%",
-            width: "15%",
+            height: "300px",
+            width: "300px",
           }}
         ></img>
+              <h3
+         style={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}>this is the chatting screen</h3>
+      </div>
       </div>
     </div>
   );
