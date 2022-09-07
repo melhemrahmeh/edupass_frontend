@@ -1,0 +1,46 @@
+[
+    {
+        "role":"TeamMember",
+        "name":"Mahmoud Kanso, Founder",
+        "id":"1",
+        "img":"../..//assets/img/team/1.png"
+    },
+    {
+        "role":"TeamMember",
+        "name":"Eslam Abou Al Hawa, Co-founder",
+        "id":"2",
+        "img":"./img/team/2.png"
+    },
+    {
+        "role":"TeamMember",
+        "name":"Nour Al Bidewe, Co-founder",
+        "id":"3",
+        "img":"./img/team/3.png"
+    },
+    {
+        "role":"TeamMember",
+        "name":"Zeinab Al Mohamad, Co-founder",
+        "id":"4",
+        "img":"./img/team/4.png"
+    },
+    {
+        "role":"teacher",
+        "name":"Chemistry, Ghenwa Z. Hubta",
+        "id":"5"
+    },
+    {
+        "role":"teacher",
+        "name":"Math, Lama Koussa",
+        "id":"6"
+    },
+    {
+        "role":"teacher",
+        "name":"Physics, Hussien Harb",
+        "id":"7"
+    },
+    {
+        "role":"teacher",
+        "name":"Biology, Ammar Koshak",
+        "id":"8"
+    }
+]
