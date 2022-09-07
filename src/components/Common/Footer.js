@@ -83,10 +83,6 @@ const Footer = () => {
                 <h3 className="footer_title">Contacts</h3>
                 <div className="contacts">
                   <p>
-                    +961 71 5789 832
-                    <br />
-                    +961 71 5789 832
-                    <br />
                     edupass2020@gmail.com <br />
                   </p>
                 </div>
