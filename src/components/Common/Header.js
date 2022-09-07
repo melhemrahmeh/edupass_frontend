@@ -24,17 +24,14 @@ const Headers = () => {
               </div>
               <div className="col-xl-6 col-md-6 col-lg-4">
                 <div className="social_media_links d-none d-lg-block">
-                  <a href="https://edupass-frontend.netlify.app/">
+                  <a href="https://www.facebook.com/EduPassSyria/">
                     <i className="fa fa-facebook" />
                   </a>
-                  <a href="https://edupass-frontend.netlify.app/">
-                    <i className="fa fa-pinterest-p" />
+                  <a href="https://www.instagram.com/education_passport/">
+                    <i className="fa fa-instagram" />
                   </a>
-                  <a href="https://edupass-frontend.netlify.app/">
+                  <a href="https://www.linkedin.com/company/edupass-education-is-my-passport/">
                     <i className="fa fa-linkedin" />
-                  </a>
-                  <a href="https://edupass-frontend.netlify.app/">
-                    <i className="fa fa-twitter" />
                   </a>
                 </div>
               </div>
